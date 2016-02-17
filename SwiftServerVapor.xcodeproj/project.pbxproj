@@ -7,11 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		84208F551C74B2E4008D43CF /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84208F541C74B2E4008D43CF /* main.swift */; };
+		84208F551C74B2E4008D43CF = {
+			isa = PBXBuildFile;
+			fileRef = 84208F541C74B2E4008D43CF;
+		};
+		84208F5D1C74B304008D43CF = {
+			isa = PBXBuildFile;
+			fileRef = 84208F5C1C74B304008D43CF;
+			settings = {
+				ASSET_TAGS = (
+				);
+			};
+		};
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		84208F4F1C74B2E4008D43CF /* CopyFiles */ = {
+		84208F4F1C74B2E4008D43CF = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,12 +34,31 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		84208F511C74B2E4008D43CF /* SwiftServerVapor */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftServerVapor; sourceTree = BUILT_PRODUCTS_DIR; };
-		84208F541C74B2E4008D43CF /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		84208F511C74B2E4008D43CF = {
+			isa = PBXFileReference;
+			explicitFileType = "compiled.mach-o.executable";
+			includeInIndex = 0;
+			path = SwiftServerVapor;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		84208F541C74B2E4008D43CF = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			name = main.swift;
+			path = main.swift;
+			sourceTree = "<group>";
+		};
+		84208F5C1C74B304008D43CF = {
+			isa = PBXFileReference;
+			fileEncoding = 4;
+			lastKnownFileType = sourcecode.swift;
+			path = Package.swift;
+			sourceTree = "<group>";
+		};
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		84208F4E1C74B2E4008D43CF /* Frameworks */ = {
+		84208F4E1C74B2E4008D43CF = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,37 +71,47 @@
 		84208F481C74B2E4008D43CF = {
 			isa = PBXGroup;
 			children = (
-				84208F531C74B2E4008D43CF /* SwiftServerVapor */,
-				84208F521C74B2E4008D43CF /* Products */,
+				84208F521C74B2E4008D43CF,
+				84208F5B1C74B2F4008D43CF,
+				84208F531C74B2E4008D43CF,
+				84208F5C1C74B304008D43CF,
 			);
 			sourceTree = "<group>";
 		};
-		84208F521C74B2E4008D43CF /* Products */ = {
+		84208F521C74B2E4008D43CF = {
 			isa = PBXGroup;
 			children = (
-				84208F511C74B2E4008D43CF /* SwiftServerVapor */,
+				84208F511C74B2E4008D43CF,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		84208F531C74B2E4008D43CF /* SwiftServerVapor */ = {
+		84208F531C74B2E4008D43CF = {
 			isa = PBXGroup;
 			children = (
-				84208F541C74B2E4008D43CF /* main.swift */,
 			);
 			path = SwiftServerVapor;
+			sourceTree = "<group>";
+		};
+		84208F5B1C74B2F4008D43CF = {
+			isa = PBXGroup;
+			children = (
+				84208F541C74B2E4008D43CF,
+			);
+			name = Sources;
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		84208F501C74B2E4008D43CF /* SwiftServerVapor */ = {
+		84208F501C74B2E4008D43CF = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 84208F581C74B2E4008D43CF /* Build configuration list for PBXNativeTarget "SwiftServerVapor" */;
+			buildConfigurationList = 84208F581C74B2E4008D43CF;
 			buildPhases = (
-				84208F4D1C74B2E4008D43CF /* Sources */,
-				84208F4E1C74B2E4008D43CF /* Frameworks */,
-				84208F4F1C74B2E4008D43CF /* CopyFiles */,
+				84208F4D1C74B2E4008D43CF,
+				84208F4E1C74B2E4008D43CF,
+				84208F4F1C74B2E4008D43CF,
 			);
 			buildRules = (
 			);
@@ -79,13 +119,13 @@
 			);
 			name = SwiftServerVapor;
 			productName = SwiftServerVapor;
-			productReference = 84208F511C74B2E4008D43CF /* SwiftServerVapor */;
+			productReference = 84208F511C74B2E4008D43CF;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		84208F491C74B2E4008D43CF /* Project object */ = {
+		84208F491C74B2E4008D43CF = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0700;
@@ -96,7 +136,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 84208F4C1C74B2E4008D43CF /* Build configuration list for PBXProject "SwiftServerVapor" */;
+			buildConfigurationList = 84208F4C1C74B2E4008D43CF;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -104,28 +144,31 @@
 				en,
 			);
 			mainGroup = 84208F481C74B2E4008D43CF;
-			productRefGroup = 84208F521C74B2E4008D43CF /* Products */;
+			productRefGroup = 84208F521C74B2E4008D43CF;
 			projectDirPath = "";
+			projectReferences = (
+			);
 			projectRoot = "";
 			targets = (
-				84208F501C74B2E4008D43CF /* SwiftServerVapor */,
+				84208F501C74B2E4008D43CF,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		84208F4D1C74B2E4008D43CF /* Sources */ = {
+		84208F4D1C74B2E4008D43CF = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84208F551C74B2E4008D43CF /* main.swift in Sources */,
+				84208F5D1C74B304008D43CF,
+				84208F551C74B2E4008D43CF,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		84208F561C74B2E4008D43CF /* Debug */ = {
+		84208F561C74B2E4008D43CF = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -168,7 +211,7 @@
 			};
 			name = Debug;
 		};
-		84208F571C74B2E4008D43CF /* Release */ = {
+		84208F571C74B2E4008D43CF = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -203,41 +246,43 @@
 			};
 			name = Release;
 		};
-		84208F591C74B2E4008D43CF /* Debug */ = {
+		84208F591C74B2E4008D43CF = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INCLUDE_PATHS = "$(SRCROOT)/.build/debug";
 			};
 			name = Debug;
 		};
-		84208F5A1C74B2E4008D43CF /* Release */ = {
+		84208F5A1C74B2E4008D43CF = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INCLUDE_PATHS = "$(SRCROOT)/.build/release";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		84208F4C1C74B2E4008D43CF /* Build configuration list for PBXProject "SwiftServerVapor" */ = {
+		84208F4C1C74B2E4008D43CF = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				84208F561C74B2E4008D43CF /* Debug */,
-				84208F571C74B2E4008D43CF /* Release */,
+				84208F561C74B2E4008D43CF,
+				84208F571C74B2E4008D43CF,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		84208F581C74B2E4008D43CF /* Build configuration list for PBXNativeTarget "SwiftServerVapor" */ = {
+		84208F581C74B2E4008D43CF = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				84208F591C74B2E4008D43CF /* Debug */,
-				84208F5A1C74B2E4008D43CF /* Release */,
+				84208F591C74B2E4008D43CF,
+				84208F5A1C74B2E4008D43CF,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 84208F491C74B2E4008D43CF /* Project object */;
+	rootObject = 84208F491C74B2E4008D43CF;
 }
