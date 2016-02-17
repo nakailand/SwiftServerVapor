@@ -1,5 +1,5 @@
 version: "Apple Swift version 3.0-dev (LLVM a7663bb722, Clang 4ca3c7fa28, Swift 1c2f40e246)"
 options: "ab57e2951db1849d0455aea7fddf91d0"
-build_time: [509034751, 438371000]
+build_time: [509041474, 529574000]
 inputs:
   "/Users/nakazy/Git/SwiftServerVapor/Sources/main.swift": [509032768, 0]

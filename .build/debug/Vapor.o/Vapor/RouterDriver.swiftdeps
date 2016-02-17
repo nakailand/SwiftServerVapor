@@ -8,9 +8,9 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - "Request"
+- "RouterDriver"
 - "Response"
 - "String"
-- "RouterDriver"
 depends-member:
 - ["Ps9AnyObject", "Method"]
 - ["C5Vapor7Request", "Method"]

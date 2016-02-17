@@ -5,13 +5,13 @@ provides-nominal:
 provides-member:
 provides-dynamic-lookup:
 depends-top-level:
+- "print"
+- "Route"
+- "Dictionary"
 - "FloatLiteralType"
 - "Server"
 - "IntegerLiteralType"
-- "Route"
 - "server"
-- "print"
-- "Dictionary"
 - "StringLiteralType"
 depends-member:
 - ["Ps9AnyObject", "get"]

@@ -7,21 +7,21 @@ provides-member:
 - ["C5Vapor14JSONSerializer", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "Int"
+- !private "!="
+- !private "FloatLiteralType"
+- !private "+="
+- !private "UnicodeScalarType"
+- !private "+"
+- "JSONSerializer"
+- !private "StringLiteralType"
+- !private "-"
+- !private "print"
+- "String"
+- !private "Mirror"
+- !private "IntegerLiteralType"
 - !private "..<"
 - "Any"
-- !private "StringLiteralType"
-- !private "UnicodeScalarType"
-- !private "!="
-- !private "+="
-- !private "IntegerLiteralType"
-- !private "-"
-- !private "+"
-- !private "Mirror"
-- "String"
-- "JSONSerializer"
-- !private "FloatLiteralType"
-- !private "print"
+- !private "Int"
 depends-member:
 - !private ["Ps9AnyObject", "Mirror"]
 - !private ["Ps9AnyObject", "init"]

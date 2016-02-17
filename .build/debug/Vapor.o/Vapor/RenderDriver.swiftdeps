@@ -7,9 +7,9 @@ provides-member:
 - ["P5Vapor12RenderDriver", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "String"
-- "Any"
 - "RenderDriver"
+- "Any"
+- "String"
 depends-member:
 - ["P5Vapor12RenderDriver", "Any"]
 - ["P5Vapor12RenderDriver", "String"]

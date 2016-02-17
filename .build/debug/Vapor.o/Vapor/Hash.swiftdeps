@@ -7,9 +7,9 @@ provides-member:
 - ["C5Vapor4Hash", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "String"
-- "StringLiteralType"
 - "Hash"
+- "StringLiteralType"
+- "String"
 depends-member:
 - !private ["Ps9AnyObject", "SHA1"]
 - !private ["Ps9AnyObject", "applicationKey"]

@@ -12,23 +12,23 @@ provides-member:
 - ["SS", "removePercentEncoding"]
 provides-dynamic-lookup:
 depends-top-level:
-- "Int"
-- !private "StringLiteralType"
+- !private "*"
+- !private "NSData"
+- "UInt8"
+- !private "UnicodeScalarType"
+- !private "+"
+- !private "<="
 - !private "!"
+- !private "&&"
+- !private "StringLiteralType"
+- !private "UnicodeScalar"
+- !private "-"
 - !private ">="
 - !private "NSUTF8StringEncoding"
 - "Character"
-- !private "UnicodeScalar"
-- !private "&&"
-- !private "<="
-- !private "-"
+- "Int"
 - !private "=="
 - "String"
-- !private "+"
-- "UInt8"
-- !private "UnicodeScalarType"
-- !private "NSData"
-- !private "*"
 depends-member:
 - !private ["Vs12AnyGenerator", "Element"]
 - !private ["Ps9AnyObject", "append"]

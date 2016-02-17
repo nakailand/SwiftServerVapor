@@ -10,20 +10,20 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - "Request"
-- "Int"
-- "RouterDriver"
-- !private "+="
-- !private "UnicodeScalarType"
-- "Response"
-- !private "StringLiteralType"
 - !private "+"
-- "String"
-- !private "ExtendedGraphemeClusterType"
+- "Response"
+- "RouterDriver"
 - !private "print"
 - !private "..<"
 - !private "Array"
+- !private "ExtendedGraphemeClusterType"
 - "NodeRouter"
+- "String"
+- "Int"
 - !private "=="
+- !private "StringLiteralType"
+- !private "UnicodeScalarType"
+- !private "+="
 depends-member:
 - ["Ps9AnyObject", "Method"]
 - ["Ps9AnyObject", "Node"]

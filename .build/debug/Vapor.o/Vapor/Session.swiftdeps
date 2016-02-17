@@ -12,21 +12,21 @@ provides-member:
 - ["OC5Vapor7Session10DriverType", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "String"
-- !private "StringLiteralType"
-- !private "fatalError"
-- "Request"
-- "Response"
-- "=="
-- !private "IntegerLiteralType"
-- "SessionDriver"
-- !private "FloatLiteralType"
-- "Dictionary"
-- !private "Int"
 - "MemorySessionDriver"
-- "Session"
-- !private "NSDate"
+- "Request"
+- !private "FloatLiteralType"
+- "Response"
+- !private "Int"
+- !private "fatalError"
+- !private "StringLiteralType"
 - !private "+="
+- "String"
+- !private "NSDate"
+- "SessionDriver"
+- "Dictionary"
+- !private "IntegerLiteralType"
+- "Session"
+- "=="
 depends-member:
 - !private ["Ps9AnyObject", "Int"]
 - ["Ps9AnyObject", "MemorySessionDriver"]

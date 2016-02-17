@@ -9,23 +9,23 @@ provides-member:
 - ["OC5Vapor7Request6Method", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "UInt8"
-- "UnicodeScalarType"
-- "StringLiteralType"
-- "String"
-- !private "NSUTF8StringEncoding"
-- !private "IntegerLiteralType"
-- "=="
-- !private "~="
-- "Request"
+- !private ">="
 - !private "FloatLiteralType"
 - !private "BooleanLiteralType"
+- "UInt8"
+- "Request"
 - !private "ExtendedGraphemeClusterType"
-- !private "NSString"
+- !private "NSUTF8StringEncoding"
+- "StringLiteralType"
 - "Bool"
-- "Dictionary"
-- !private ">="
 - "Session"
+- "UnicodeScalarType"
+- !private "NSString"
+- "Dictionary"
+- !private "IntegerLiteralType"
+- !private "~="
+- "=="
+- "String"
 depends-member:
 - !private ["Ps9AnyObject", "NSString"]
 - !private ["Ps9AnyObject", "NSUTF8StringEncoding"]

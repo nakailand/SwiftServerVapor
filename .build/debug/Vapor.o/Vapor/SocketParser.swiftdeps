@@ -11,23 +11,23 @@ provides-member:
 - ["CC5Vapor12SocketParser11RequestLine", ""]
 provides-dynamic-lookup:
 depends-top-level:
+- !private "FloatLiteralType"
 - !private "<"
-- !private "StringLiteralType"
+- !private "BooleanLiteralType"
 - "SocketParser"
+- "ErrorType"
 - !private "Int"
-- "=="
+- "Request"
+- !private "+="
 - !private "UInt8"
+- !private "UnicodeScalarType"
+- !private "ExtendedGraphemeClusterType"
+- !private "StringLiteralType"
+- !private "??"
 - !private "IntegerLiteralType"
 - "Socket"
+- "=="
 - "String"
-- !private "??"
-- !private "FloatLiteralType"
-- !private "+="
-- !private "BooleanLiteralType"
-- "ErrorType"
-- !private "UnicodeScalarType"
-- "Request"
-- !private "ExtendedGraphemeClusterType"
 depends-member:
 - !private ["Ps9AnyObject", "Error"]
 - !private ["Ps9AnyObject", "Int"]

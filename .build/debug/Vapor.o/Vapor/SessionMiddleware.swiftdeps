@@ -7,11 +7,11 @@ provides-member:
 - ["C5Vapor17SessionMiddleware", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "Request"
 - "Response"
-- !private "Session"
+- "Request"
 - "SessionMiddleware"
 - "Middleware"
+- !private "Session"
 depends-member:
 - !private ["Ps9AnyObject", "Session"]
 - !private ["Ps9AnyObject", "close"]
