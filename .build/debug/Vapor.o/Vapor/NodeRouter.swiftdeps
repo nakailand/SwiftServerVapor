@@ -9,21 +9,21 @@ provides-member:
 - ["CC5Vapor10NodeRouter4Node", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "Response"
-- "String"
-- "Int"
-- !private "Array"
-- "RouterDriver"
-- !private "print"
-- !private "..<"
-- "NodeRouter"
-- !private "+="
 - "Request"
+- "Int"
+- "RouterDriver"
+- !private "+="
 - !private "UnicodeScalarType"
-- !private "ExtendedGraphemeClusterType"
-- !private "=="
+- "Response"
 - !private "StringLiteralType"
 - !private "+"
+- "String"
+- !private "ExtendedGraphemeClusterType"
+- !private "print"
+- !private "..<"
+- !private "Array"
+- "NodeRouter"
+- !private "=="
 depends-member:
 - ["Ps9AnyObject", "Method"]
 - ["Ps9AnyObject", "Node"]

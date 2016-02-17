@@ -7,10 +7,10 @@ provides-member:
 - ["P5Vapor12RouterDriver", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "String"
 - "Request"
-- "RouterDriver"
 - "Response"
+- "String"
+- "RouterDriver"
 depends-member:
 - ["Ps9AnyObject", "Method"]
 - ["C5Vapor7Request", "Method"]

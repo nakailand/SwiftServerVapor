@@ -9,9 +9,9 @@ provides-dynamic-lookup:
 depends-top-level:
 - "Request"
 - "Response"
+- !private "Session"
 - "SessionMiddleware"
 - "Middleware"
-- !private "Session"
 depends-member:
 - !private ["Ps9AnyObject", "Session"]
 - !private ["Ps9AnyObject", "close"]

@@ -7,9 +7,9 @@ provides-member:
 - ["P5Vapor10Middleware", ""]
 provides-dynamic-lookup:
 depends-top-level:
+- "Request"
 - "Middleware"
 - "Response"
-- "Request"
 depends-member:
 - ["P5Vapor10Middleware", "Request"]
 - ["P5Vapor10Middleware", "Response"]

@@ -10,11 +10,11 @@ provides-member:
 - ["P5Vapor20ServerDriverDelegate", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "ServerDriver"
-- "Int"
 - "Request"
-- "ServerDriverDelegate"
 - "Response"
+- "Int"
+- "ServerDriver"
+- "ServerDriverDelegate"
 depends-member:
 - ["P5Vapor12ServerDriver", "Int"]
 - ["P5Vapor12ServerDriver", "ServerDriverDelegate"]

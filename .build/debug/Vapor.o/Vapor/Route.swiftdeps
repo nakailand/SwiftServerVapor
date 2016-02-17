@@ -7,11 +7,11 @@ provides-member:
 - ["C5Vapor5Route", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "Request"
-- "Controller"
 - "ResponseConvertible"
-- "Route"
+- "Request"
 - !private "StringLiteralType"
+- "Controller"
+- "Route"
 - "String"
 depends-member:
 - ["Ps9AnyObject", "Method"]
