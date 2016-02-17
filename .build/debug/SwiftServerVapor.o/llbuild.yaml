@@ -11,19 +11,19 @@ commands:
   <SwiftServerVapor-swiftc>:
     tool: swift-compiler
     executable: "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-02-08-a.xctoolchain/usr/bin/swiftc"
-    inputs: ["/Users/nakazy/Git/SwiftServerVapor/SwiftServerVapor/main.swift"]
-    outputs: ["<SwiftServerVapor-swiftc>","/Users/nakazy/Git/SwiftServerVapor/.build/debug/SwiftServerVapor.swiftmodule","/Users/nakazy/Git/SwiftServerVapor/.build/debug/SwiftServerVapor.o/SwiftServerVapor/main.swift.o"]
+    inputs: ["/Users/nakazy/Git/SwiftServerVapor/Sources/main.swift"]
+    outputs: ["<SwiftServerVapor-swiftc>","/Users/nakazy/Git/SwiftServerVapor/.build/debug/SwiftServerVapor.swiftmodule","/Users/nakazy/Git/SwiftServerVapor/.build/debug/SwiftServerVapor.o/Sources/main.swift.o"]
     module-name: "SwiftServerVapor"
     module-output-path: "/Users/nakazy/Git/SwiftServerVapor/.build/debug/SwiftServerVapor.swiftmodule"
     is-library: false
-    sources: ["/Users/nakazy/Git/SwiftServerVapor/SwiftServerVapor/main.swift"]
-    objects: ["/Users/nakazy/Git/SwiftServerVapor/.build/debug/SwiftServerVapor.o/SwiftServerVapor/main.swift.o"]
+    sources: ["/Users/nakazy/Git/SwiftServerVapor/Sources/main.swift"]
+    objects: ["/Users/nakazy/Git/SwiftServerVapor/.build/debug/SwiftServerVapor.o/Sources/main.swift.o"]
     import-paths: ["/Users/nakazy/Git/SwiftServerVapor/.build/debug"]
     temps-path: "/Users/nakazy/Git/SwiftServerVapor/.build/debug/SwiftServerVapor.o/SwiftServerVapor"
     other-args: ["-j8","-Onone","-g","-target","x86_64-apple-macosx10.10","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk","-I","/usr/local/include","-D","SWIFT_PACKAGE"]
   <SwiftServerVapor>:
     tool: shell
-    inputs: ["<SwiftServerVapor-swiftc>","/Users/nakazy/Git/SwiftServerVapor/.build/debug/SwiftServerVapor.o/SwiftServerVapor/main.swift.o","/Users/nakazy/Git/SwiftServerVapor/.build/debug/Vapor.a"]
+    inputs: ["<SwiftServerVapor-swiftc>","/Users/nakazy/Git/SwiftServerVapor/.build/debug/SwiftServerVapor.o/Sources/main.swift.o","/Users/nakazy/Git/SwiftServerVapor/.build/debug/Vapor.a"]
     outputs: ["<SwiftServerVapor>","/Users/nakazy/Git/SwiftServerVapor/.build/debug/SwiftServerVapor"]
-    args: ["/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-02-08-a.xctoolchain/usr/bin/swiftc","-o","/Users/nakazy/Git/SwiftServerVapor/.build/debug/SwiftServerVapor","/Users/nakazy/Git/SwiftServerVapor/.build/debug/SwiftServerVapor.o/SwiftServerVapor/main.swift.o","-target","x86_64-apple-macosx10.10","-Xlinker","-all_load","-g","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk","/Users/nakazy/Git/SwiftServerVapor/.build/debug/Vapor.a","-L/usr/local/lib"]
+    args: ["/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-02-08-a.xctoolchain/usr/bin/swiftc","-o","/Users/nakazy/Git/SwiftServerVapor/.build/debug/SwiftServerVapor","/Users/nakazy/Git/SwiftServerVapor/.build/debug/SwiftServerVapor.o/Sources/main.swift.o","-target","x86_64-apple-macosx10.10","-Xlinker","-all_load","-g","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk","/Users/nakazy/Git/SwiftServerVapor/.build/debug/Vapor.a","-L/usr/local/lib"]
     description: "Linking Executable:  .build/debug/SwiftServerVapor"

@@ -2,9 +2,9 @@
   "": {
     "swift-dependencies": "/Users/nakazy/Git/SwiftServerVapor/.build/debug/SwiftServerVapor.o/SwiftServerVapor/master.swiftdeps"
   },
-  "/Users/nakazy/Git/SwiftServerVapor/SwiftServerVapor/main.swift": {
+  "/Users/nakazy/Git/SwiftServerVapor/Sources/main.swift": {
     "dependencies": "/Users/nakazy/Git/SwiftServerVapor/.build/debug/SwiftServerVapor.o/SwiftServerVapor/main.d",
-    "object": "/Users/nakazy/Git/SwiftServerVapor/.build/debug/SwiftServerVapor.o/SwiftServerVapor/main.swift.o",
+    "object": "/Users/nakazy/Git/SwiftServerVapor/.build/debug/SwiftServerVapor.o/Sources/main.swift.o",
     "swiftmodule": "/Users/nakazy/Git/SwiftServerVapor/.build/debug/SwiftServerVapor.o/SwiftServerVapor/main~partial.swiftmodule",
     "swift-dependencies": "/Users/nakazy/Git/SwiftServerVapor/.build/debug/SwiftServerVapor.o/SwiftServerVapor/main.swiftdeps"
   }
